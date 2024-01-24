@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Core.Utils
+namespace Code.Core.Utils
 {
     public static class TextureUtil
     {

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Core.Utils
+namespace Code.Core.Utils
 {
     public class ScreenUtility
     {

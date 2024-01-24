@@ -1,7 +1,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Core.Utils
+namespace Code.Core.Utils
 {
     public static class CryptoUtils
     {

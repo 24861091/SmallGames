@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 
-namespace Core.Utils
+namespace Code.Core.Utils
 {
     public class TimeUtil
     {

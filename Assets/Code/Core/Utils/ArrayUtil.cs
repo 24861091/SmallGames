@@ -1,6 +1,6 @@
 using System;
 
-namespace Core.Utils
+namespace Code.Core.Utils
 {
     public class ArrayUtil
     {

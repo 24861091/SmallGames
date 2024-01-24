@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using Debug = UnityEngine.Debug;
 
-namespace Core.Utils
+namespace Code.Core.Utils
 {
     public static class CoreLog
     {

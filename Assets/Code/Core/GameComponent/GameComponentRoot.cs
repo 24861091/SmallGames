@@ -1,6 +1,6 @@
 using System.Linq;
 
-namespace GameLib.Main.Gameplay
+namespace Code.Core.GameComponent
 {
     /// <summary>
     /// 所有GameComponent的根节点

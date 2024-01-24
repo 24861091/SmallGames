@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using Core.Utils;
+using Code.Core.Utils;
 
-namespace GameLib.Main.Gameplay
+namespace Code.Core.GameComponent
 {
     public abstract class GameComponent
     {

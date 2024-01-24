@@ -1,4 +1,4 @@
-namespace GameLib.Main.Gameplay
+namespace Code.Core.GameComponent
 {
     /// <summary>
     /// 一种特化的GameComponent

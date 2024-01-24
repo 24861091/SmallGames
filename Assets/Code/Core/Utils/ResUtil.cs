@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Threading.Tasks;
 
-namespace Core.Utils
+namespace Code.Core.Utils
 {
     public static class ResUtil
     {

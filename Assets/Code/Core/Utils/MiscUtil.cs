@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Core.Utils
+namespace Code.Core.Utils
 {
     public static class MiscUtil
     {
