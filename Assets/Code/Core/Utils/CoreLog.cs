@@ -9,13 +9,13 @@ namespace Code.Core.Utils
         public const string WARNING = "__LOG_WARNING";
         // public const string ERROR = "__LOG_ERROR";
 
-        [Conditional(VERBOSE)]
+        //[Conditional(VERBOSE)]
         public static void Log(string s)
         {
             Debug.Log(s);
         }
 
-        [Conditional(VERBOSE)]
+        //[Conditional(VERBOSE)]
         public static void Log(object s)
         {
             Debug.Log(s);

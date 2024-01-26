@@ -5,9 +5,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animancer", "Animancer.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitaya", "Pitaya.csproj", "{28beb930-0cf6-96ff-14fe-6a1db09777f4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animancer.FSM", "Animancer.FSM.csproj", "{480dd76b-3c0b-82e7-86f8-04abf68a3166}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{7c214f5c-3ede-0f79-5d30-bcc39eab8cf9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animancer.FSM", "Animancer.FSM.csproj", "{480dd76b-3c0b-82e7-86f8-04abf68a3166}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitaya.Editor", "Pitaya.Editor.csproj", "{80910cf3-4c50-eb54-efa8-692264741e25}"
 EndProject
@@ -22,10 +22,10 @@ Global
 		{bdd55732-c392-7026-79b5-25d6e46a8d24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28beb930-0cf6-96ff-14fe-6a1db09777f4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{28beb930-0cf6-96ff-14fe-6a1db09777f4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{480dd76b-3c0b-82e7-86f8-04abf68a3166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{480dd76b-3c0b-82e7-86f8-04abf68a3166}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7c214f5c-3ede-0f79-5d30-bcc39eab8cf9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7c214f5c-3ede-0f79-5d30-bcc39eab8cf9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{480dd76b-3c0b-82e7-86f8-04abf68a3166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{480dd76b-3c0b-82e7-86f8-04abf68a3166}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80910cf3-4c50-eb54-efa8-692264741e25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{80910cf3-4c50-eb54-efa8-692264741e25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30a5e322-2325-5ab1-8570-c04caef07ddc}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

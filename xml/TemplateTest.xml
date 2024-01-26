@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StaticData>
+  <Template Type="TemplateTest">
+    <ID chn = "ID">1</ID>
+    <id chn = "id">ming</id>
+    <a3 chn = "暗号">2</a3>
+    <b3 chn = "名字">
+    </b3>
+    <c3 chn = "随便">3</c3>
+    <platform3 chn = "瞎编">OSXEditor</platform3>
+    <v33 Type="Vector3">
+      <x chn = "X">4</x>
+      <y chn = "Y">5</y>
+      <z chn = "Z">6</z>
+    </v33>
+  </Template>
+</StaticData>

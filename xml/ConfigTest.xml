@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StaticData>
+  <Config Type="ConfigTest">
+    <a>10006</a>
+    <b>
+    </b>
+    <c>0</c>
+    <platform>OSXEditor</platform>
+    <v3 Type="Vector3">
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </v3>
+  </Config>
+</StaticData>
