@@ -130,6 +130,9 @@ namespace UI
     public void GenerateFields(bool useKeys)
     {
         var type = this.GetType();
+        if (type == typeof(ScriptMono)) return;
+        if (!type.IsSubclassOf(typeof(ScriptMono))) return;
+        
         var className = this.GetType().Name;
         var @namespace = type.Namespace;
         var folderPath = "Assets/Code/UI/Generated";
