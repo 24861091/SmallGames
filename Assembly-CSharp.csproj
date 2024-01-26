@@ -26,7 +26,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
-    <DefineConstants>UNITY_2021_3_31;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_31;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
@@ -41,128 +41,142 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\StaticDataInterface.cs" />
+     <Compile Include="Assets\Code\StaticData\StaticData\Generate\Summary\StaticDataSummary_TemplateTest.cs" />
+     <Compile Include="Assets\Code\StaticData\IStaticData\Template.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Client\InternationalText.cs" />
+     <Compile Include="Assets\Code\StaticData\StaticData\Generate\Summary\StaticDataSummary_structs.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\XmlTemplateLoader.cs" />
+     <Compile Include="Assets\Code\StaticData\Generator\Constant.cs" />
      <Compile Include="Assets\Code\Core\GameConf\IConfig.cs" />
+     <Compile Include="Assets\Code\Core\CodeSingleton.cs" />
      <Compile Include="Assets\Code\Core\Tasks\DelayTask.cs" />
+     <Compile Include="Assets\Code\StaticData\Generator\Interfaces.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\IReferenceDatas.cs" />
+     <Compile Include="Assets\Code\StaticData\IStaticData\StaticDataAttribute.cs" />
      <Compile Include="Assets\Code\Core\Utils\CoreLog.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\BinaryConfigLoader.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Client\Facade.cs" />
      <Compile Include="Assets\Code\Core\Tasks\TaskChain.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Client\ConcretConstant.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\ITemplateLoader.cs" />
      <Compile Include="Assets\Code\Core\Utils\TextureUtil.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\TemplateManager.cs" />
      <Compile Include="Assets\Code\Core\Tasks\TaskUntil.cs" />
      <Compile Include="Assets\Code\Core\Utils\MiscUtil.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\ReferenceTemplateDatas.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\StaticDataUtility.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\ConfigManager.cs" />
      <Compile Include="Assets\Code\Core\Tasks\TaskStatus.cs" />
      <Compile Include="Assets\Code\Core\Tasks\TaskEmpty.cs" />
      <Compile Include="Assets\Code\Core\Tasks\ParallelTask.cs" />
      <Compile Include="Assets\Code\Core\Tasks\TaskWhenAny.cs" />
+     <Compile Include="Assets\Code\StaticData\Interfaces\IIsYieldable.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleEPOOutline.cs" />
+     <Compile Include="Assets\Code\StaticData\IStaticData\IStaticData.cs" />
      <Compile Include="Assets\Code\Core\GameConf\GameConf.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
      <Compile Include="Assets\Code\Core\GameComponent\GameComponentRoot.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\XmlSerializerUtility.cs" />
      <Compile Include="Assets\Code\Core\Tasks\BlockSceneUITask.cs" />
      <Compile Include="Assets\Code\Core\GameComponent\RootComponent.cs" />
+     <Compile Include="Assets\Code\StaticData\Interfaces\ITickable.cs" />
+     <Compile Include="Assets\Code\StaticData\IStaticData\Config.cs" />
      <Compile Include="Assets\Code\Test.cs" />
+     <Compile Include="Assets\Code\StaticData\StaticData\Generate\StaticDataSummary.cs" />
+     <Compile Include="Assets\Code\StaticData\StaticData\Generate\Defination\ConfigTest.cs" />
      <Compile Include="Assets\Code\Core\Tasks\AbstrackTask.cs" />
      <Compile Include="Assets\Code\Core\Tasks\TaskQueue.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\BinaryTemplateLoader.cs" />
      <Compile Include="Assets\Code\Core\Tasks\CallFuncTask.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\SummarySerializeInterface.cs" />
      <Compile Include="Assets\Code\Core\Tasks\TaskWhenAll.cs" />
      <Compile Include="Assets\Code\Core\Tasks\TaskRunner.cs" />
+     <Compile Include="Assets\Code\Core\UI\SciptMono\ScriptMono.cs" />
      <Compile Include="Assets\Code\Core\Utils\ScreenUtility.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Facade.cs" />
+     <Compile Include="Assets\Code\StaticData\StaticData\Generate\Defination\TemplateTest.cs" />
+     <Compile Include="Assets\Code\StaticData\Generator\StaticDataUtility.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\SummarySerialize.cs" />
      <Compile Include="Assets\Code\Core\Tasks\SequentialTask.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Constant.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\XmlConfigLoader.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\BinaryFileTitle.cs" />
      <Compile Include="Assets\Code\Core\Utils\ResUtil.cs" />
      <Compile Include="Assets\Code\Core\Tasks\ITaskQueue.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\WeakReferenceConfigDatas.cs" />
      <Compile Include="Assets\Code\Core\Utils\CryptoUtils.cs" />
+     <Compile Include="Assets\Code\StaticData\StaticData\Generate\Summary\StaticDataSummary_ConfigTest.cs" />
+     <Compile Include="Assets\Code\Core\UI\SciptMono\ScriptMono.Binding.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
      <Compile Include="Assets\Code\Core\GameComponent\GameComponent.cs" />
      <Compile Include="Assets\Code\Core\Utils\ArrayUtil.cs" />
      <Compile Include="Assets\Code\Core\Utils\BlurUtil.cs" />
-     <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
-     <Compile Include="Assets\Code\Core\Utils\TimeUtil.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\StaticDataUtility.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\SummarySerializeInterface.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\BinaryConfigLoader.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\WeakReferenceTemplateDatas.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\ITemplateLoader.cs" />
-     <Compile Include="Assets\Code\StaticData\StaticData\Generate\Defination\TemplateTest.cs" />
-     <Compile Include="Assets\Code\StaticData\Generator\StaticDataUtility.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\StaticDataInterface.cs" />
-     <Compile Include="Assets\Code\StaticData\StaticData\Generate\Summary\StaticDataSummary_ConfigTest.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\TemplateManager.cs" />
-     <Compile Include="Assets\Code\StaticData\IStaticData\Config.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Constant.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\XmlTemplateLoader.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\BinaryTemplateLoader.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\SummarySerialize.cs" />
-     <Compile Include="Assets\Code\StaticData\StaticData\Generate\Summary\StaticDataSummary_TemplateTest.cs" />
-     <Compile Include="Assets\Code\StaticData\Generator\Interfaces.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\BinaryFileReader.cs" />
-     <Compile Include="Assets\Code\StaticData\StaticData\Generate\StaticDataSummary.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\XmlConfigLoader.cs" />
-     <Compile Include="Assets\Code\StaticData\Generator\Constant.cs" />
-     <Compile Include="Assets\Code\StaticData\Interfaces\IIsYieldable.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Client\Facade.cs" />
-     <Compile Include="Assets\Code\StaticData\IStaticData\Template.cs" />
-     <Compile Include="Assets\Code\StaticData\StaticData\Generate\Defination\ConfigTest.cs" />
+     <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
      <Compile Include="Assets\Code\StaticData\Generator\Facade.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\ReferenceTemplateDatas.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Client\BinaryConcretDependency.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\WeakReferenceConfigDatas.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Client\InternationalText.cs" />
-     <Compile Include="Assets\Code\StaticData\IStaticData\StaticDataAttribute.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\BinaryFileTitle.cs" />
-     <Compile Include="Assets\Code\StaticData\StaticData\Generate\Summary\StaticDataSummary_structs.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\IReferenceDatas.cs" />
-     <Compile Include="Assets\Code\StaticData\Interfaces\ITickable.cs" />
-     <Compile Include="Assets\Code\StaticData\IStaticData\IStaticData.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\IConfigLoader.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Facade.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\ReferenceConfigDatas.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\ConfigManager.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Client\ConcretConstant.cs" />
-     <Compile Include="Assets\Code\StaticData\Engine\StaticData\XmlSerializerUtility.cs" />
-     <Compile Include="Assets\Code\Core\CodeSingleton.cs" />
+     <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\WeakReferenceTemplateDatas.cs" />
+     <Compile Include="Assets\Code\Core\Utils\TimeUtil.cs" />
+     <Compile Include="Assets\Code\Core\UI\SciptMono\SerialzableDict.cs" />
+     <Compile Include="Assets\Code\UI\Generated\ScriptMono.Fields.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Code\StaticData\StaticData" />
-     <Folder Include="Assets\Code\Core\Plugins\Pitaya" />
-     <Folder Include="Assets\Configs" />
-     <Folder Include="Assets\Code\Core\Plugins\Pitaya\Android" />
      <Folder Include="Assets\Code\Core\Tasks" />
      <Folder Include="Assets\Code\Core\Utils" />
      <Folder Include="Assets\Code\StaticData\Engine\StaticData\Client" />
+     <Folder Include="Assets\Code\Core\Plugins\Sirenix\Assemblies" />
      <Folder Include="Assets\Code\Core\Plugins\Demigiant" />
      <Folder Include="Assets\Code\StaticData\IStaticData" />
-     <Folder Include="Assets\Code\Core\Plugins\Pitaya\Mac" />
-     <None Include="Assets\Code\Core\Plugins\Google.Protobuf\lib\netstandard1.0\Google.Protobuf.xml" />
      <Folder Include="Assets\Code\StaticData\Engine\StaticData" />
-     <Folder Include="Assets\Code\Core\Plugins\Google.Protobuf\lib" />
      <Folder Include="Assets\Code\StaticData\Engine\StaticData\Manager" />
      <Folder Include="Assets\Resources\binary" />
      <Folder Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules" />
      <Folder Include="Assets\Code\Core\UIManager" />
+     <None Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.xml" />
      <Folder Include="Assets\Code\StaticData\Engine" />
+     <None Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.xml" />
+     <Folder Include="Assets\Code\Core\UI" />
+     <Folder Include="Assets\Code\Core\Plugins\Sirenix\Odin Inspector\Modules" />
      <Folder Include="Assets\Code\Core\Plugins\Demigiant\DOTween" />
-     <Folder Include="Assets\Code\Core\Plugins\Pitaya\include" />
-     <Folder Include="Assets\Code\Core\Plugins\Pitaya\Windows" />
+     <Folder Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\NoEmitAndNoEditor" />
+     <Folder Include="Assets\Code\Core\Plugins\Sirenix\Odin Inspector\Config\Resources\Sirenix" />
+     <None Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.xml" />
      <Folder Include="Assets\Code\StaticData\Generator" />
      <Folder Include="Assets\Scenes" />
-     <Folder Include="Assets\Code\Core\ExternalDlls" />
+     <Folder Include="Assets\Code\UI\Generated" />
+     <None Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.Utilities.xml" />
      <Folder Include="Assets\Resources" />
+     <Folder Include="Assets\Code\Core\UI\SciptMono" />
+     <Folder Include="Assets\Code\Core\Plugins\Sirenix\Odin Inspector\Config" />
      <Folder Include="Assets\Code\StaticData\StaticData\Generate\Summary" />
-     <Folder Include="Assets\Code\Core\Plugins\Pitaya\Android\libs" />
      <Folder Include="Assets\Code\Core\Plugins" />
      <Folder Include="Assets\Code\Core\GameComponent" />
      <Folder Include="Assets\Code\StaticData\StaticData\Generate\Defination" />
+     <None Include="Assets\Code\Core\Plugins\Sirenix\Readme.txt" />
      <Folder Include="Assets\Code\Core" />
-     <Folder Include="Assets\res" />
+     <Folder Include="Assets\Code\UI" />
+     <Folder Include="Assets\Code\Core\Plugins\Sirenix" />
+     <Folder Include="Assets\Code\Core\Plugins\Sirenix\Demos" />
+     <None Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\link.xml" />
+     <Folder Include="Assets\Code\Core\Plugins\Sirenix\Odin Inspector" />
      <Folder Include="Assets\Code\StaticData\Interfaces" />
+     <None Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.xml" />
+     <Folder Include="Assets\Code\Core\Plugins\Sirenix\Odin Inspector\Config\Resources" />
      <None Include="Assets\Code\Core\Plugins\Demigiant\DOTween\readme.txt" />
      <Folder Include="Assets\Code" />
+     <Folder Include="Assets\Code\Core\Plugins\Sirenix\Odin Inspector\Assets" />
      <Folder Include="Assets\Code\Core\GameConf" />
      <Folder Include="Assets\Code\StaticData\StaticData\Generate" />
      <Folder Include="Assets\Code\StaticData" />
-     <Folder Include="Assets\Code\Core\Plugins\Google.Protobuf" />
-     <Folder Include="Assets\Code\Core\Plugins\Google.Protobuf\lib\netstandard1.0" />
+     <Folder Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\NoEditor" />
+     <None Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.Serialization.xml" />
      <Reference Include="UnityEngine">
      <HintPath>E:\Program Files\Unity 2021.3.31f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -409,8 +423,26 @@
      <Reference Include="ReportGeneratorMerged">
      <HintPath>E:\work\SmallGames\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
-     <Reference Include="Google.Protobuf">
-     <HintPath>E:\work\SmallGames\Assets\Code\Core\Plugins\Google.Protobuf\lib\netstandard1.0\Google.Protobuf.dll</HintPath>
+     <Reference Include="Sirenix.Reflection.Editor">
+     <HintPath>E:\work\SmallGames\Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.OdinInspector.Editor">
+     <HintPath>E:\work\SmallGames\Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.OdinInspector.Attributes">
+     <HintPath>E:\work\SmallGames\Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Serialization.Config">
+     <HintPath>E:\work\SmallGames\Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Utilities">
+     <HintPath>E:\work\SmallGames\Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Serialization">
+     <HintPath>E:\work\SmallGames\Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="Sirenix.Utilities.Editor">
+     <HintPath>E:\work\SmallGames\Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>E:\Program Files\Unity 2021.3.31f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -855,17 +887,9 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Pitaya.Editor.csproj">
-      <Project>{80910cf3-4c50-eb54-efa8-692264741e25}</Project>
-      <Name>Pitaya.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Animancer.csproj">
       <Project>{bdd55732-c392-7026-79b5-25d6e46a8d24}</Project>
       <Name>Animancer</Name>
-    </ProjectReference>
-    <ProjectReference Include="Pitaya.csproj">
-      <Project>{28beb930-0cf6-96ff-14fe-6a1db09777f4}</Project>
-      <Name>Pitaya</Name>
     </ProjectReference>
     <ProjectReference Include="Animancer.FSM.csproj">
       <Project>{480dd76b-3c0b-82e7-86f8-04abf68a3166}</Project>

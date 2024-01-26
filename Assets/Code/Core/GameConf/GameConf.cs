@@ -1,8 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
-using Code.Core.Utils;
-using GameLib.Main;
 
 namespace Code.Core.GameConf
 {

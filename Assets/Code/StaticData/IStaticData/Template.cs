@@ -3,10 +3,7 @@
  author : caiming
 ************************************************/
 
-using System.Collections;
-using System.Collections.Generic;
 using Code.Core.GameConf;
-using UnityEngine;
 namespace StaticData
 {
     public class Template : IStaticData, IConfig
