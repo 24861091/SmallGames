@@ -53,6 +53,8 @@
      <Compile Include="Assets\Code\Core\Tasks\DelayTask.cs" />
      <Compile Include="Assets\Code\StaticData\Generator\Interfaces.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\IReferenceDatas.cs" />
+     <Compile Include="Assets\Code\Core\UI\UICaching.cs" />
+     <Compile Include="Assets\Code\Core\UI\PanelConfigAttribute.cs" />
      <Compile Include="Assets\Code\StaticData\IStaticData\StaticDataAttribute.cs" />
      <Compile Include="Assets\Code\Core\Utils\CoreLog.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\BinaryConfigLoader.cs" />
@@ -66,6 +68,7 @@
      <Compile Include="Assets\Code\Core\Utils\MiscUtil.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\ReferenceTemplateDatas.cs" />
+     <Compile Include="Assets\Code\Core\UI\UIType.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\StaticDataUtility.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\ConfigManager.cs" />
      <Compile Include="Assets\Code\Core\Tasks\TaskStatus.cs" />
@@ -87,8 +90,10 @@
      <Compile Include="Assets\Code\Test.cs" />
      <Compile Include="Assets\Code\StaticData\StaticData\Generate\StaticDataSummary.cs" />
      <Compile Include="Assets\Code\StaticData\StaticData\Generate\Defination\ConfigTest.cs" />
+     <Compile Include="Assets\Code\Core\UI\SciptMono\SerialzableDict.cs" />
      <Compile Include="Assets\Code\Core\Tasks\AbstrackTask.cs" />
      <Compile Include="Assets\Code\Core\Tasks\TaskQueue.cs" />
+     <Compile Include="Assets\Code\UI\Generated\ScriptMono.Fields.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\BinaryTemplateLoader.cs" />
      <Compile Include="Assets\Code\Core\Tasks\CallFuncTask.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\SummarySerializeInterface.cs" />
@@ -107,10 +112,12 @@
      <Compile Include="Assets\Code\Core\Utils\ResUtil.cs" />
      <Compile Include="Assets\Code\Core\Tasks\ITaskQueue.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\WeakReferenceConfigDatas.cs" />
+     <Compile Include="Assets\Code\Core\UI\UIMaskMode.cs" />
      <Compile Include="Assets\Code\Core\Utils\CryptoUtils.cs" />
      <Compile Include="Assets\Code\StaticData\StaticData\Generate\Summary\StaticDataSummary_ConfigTest.cs" />
      <Compile Include="Assets\Code\Core\UI\SciptMono\ScriptMono.Binding.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\Code\Core\UI\UIPopMode.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
      <Compile Include="Assets\Code\Core\GameComponent\GameComponent.cs" />
@@ -124,8 +131,6 @@
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\ReferenceConfigDatas.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\WeakReferenceTemplateDatas.cs" />
      <Compile Include="Assets\Code\Core\Utils\TimeUtil.cs" />
-     <Compile Include="Assets\Code\Core\UI\SciptMono\SerialzableDict.cs" />
-     <Compile Include="Assets\Code\UI\Generated\ScriptMono.Fields.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Code\StaticData\StaticData" />
      <Folder Include="Assets\Code\Core\Tasks" />
@@ -414,15 +419,6 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>E:\Program Files\Unity 2021.3.31f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
-     <Reference Include="DOTween">
-     <HintPath>E:\work\SmallGames\Assets\Code\Core\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>E:\work\SmallGames\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="ReportGeneratorMerged">
-     <HintPath>E:\work\SmallGames\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-     </Reference>
      <Reference Include="Sirenix.Reflection.Editor">
      <HintPath>E:\work\SmallGames\Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
      </Reference>
@@ -437,6 +433,15 @@
      </Reference>
      <Reference Include="Sirenix.Utilities">
      <HintPath>E:\work\SmallGames\Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween">
+     <HintPath>E:\work\SmallGames\Assets\Code\Core\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+     </Reference>
+     <Reference Include="ReportGeneratorMerged">
+     <HintPath>E:\work\SmallGames\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>E:\work\SmallGames\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Sirenix.Serialization">
      <HintPath>E:\work\SmallGames\Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
