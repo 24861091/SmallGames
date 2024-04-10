@@ -188,7 +188,6 @@
      <Compile Include="Assets\Code\Core\Plugins\Animancer\Internal\Core\AnimancerPlayable.LayerList.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Animancer\Internal\Editor\Attributes\EventNamesAttribute.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Animancer\Internal\Editor\Serialization\Serialization.ObjectReference.cs" />
-     <Compile Include="Assets\Code\Core\Plugins\Animancer\Internal\Core\SoloAnimation.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Animancer\Internal\Editor\AnimationGatherer.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Animancer\Internal\Mixer States\CartesianMixerState.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Animancer\Internal\Editor\GUI\SerializableEventSequenceDrawer.cs" />

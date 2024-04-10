@@ -78,6 +78,7 @@
      <Folder Include="Assets\Code\StaticData\Engine\Editor" />
      <Folder Include="Assets\Code\StaticData\StaticData\Generate\Editor" />
      <Folder Include="Assets\Code\StaticData\Editor\Defination" />
+     <Folder Include="Assets\Editor" />
      <Folder Include="Assets\Code\StaticData\StaticData\Generate\Editor\Summary" />
      <Folder Include="Assets\Code\Core\Plugins\Sirenix\Odin Inspector\Config\Editor" />
      <Folder Include="Assets\Code\StaticData\Engine\Editor\Client" />
@@ -860,9 +861,21 @@
       <Project>{7c214f5c-3ede-0f79-5d30-bcc39eab8cf9}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="spine-unity.csproj">
+      <Project>{710abcc1-8355-6c08-c31f-c3180a63b716}</Project>
+      <Name>spine-unity</Name>
+    </ProjectReference>
     <ProjectReference Include="Animancer.csproj">
       <Project>{bdd55732-c392-7026-79b5-25d6e46a8d24}</Project>
       <Name>Animancer</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-editor.csproj">
+      <Project>{ac0d29cd-fed6-f3b0-a18a-e002e2b7cbc6}</Project>
+      <Name>spine-unity-editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-csharp.csproj">
+      <Project>{2fb3113f-ab32-4756-0d5c-63671cee04fd}</Project>
+      <Name>spine-csharp</Name>
     </ProjectReference>
     <ProjectReference Include="Animancer.FSM.csproj">
       <Project>{480dd76b-3c0b-82e7-86f8-04abf68a3166}</Project>

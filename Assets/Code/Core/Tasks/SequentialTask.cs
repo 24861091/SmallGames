@@ -9,7 +9,7 @@ namespace Code.Core.Tasks
     public class SequentialTask : AbstractTask
     {
         private int                _index = 0;
-        private List<AbstractTask> _innerTasks = new();
+        private List<AbstractTask> _innerTasks = new List<AbstractTask>();
         private Action             _onFinish;
 
         public void Add(AbstractTask task)

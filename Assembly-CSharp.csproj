@@ -61,6 +61,7 @@
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Client\Facade.cs" />
      <Compile Include="Assets\Code\Core\Tasks\TaskChain.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Client\ConcretConstant.cs" />
+     <Compile Include="Assets\Code\Core\Extension\SpineExtension.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\ITemplateLoader.cs" />
      <Compile Include="Assets\Code\Core\Utils\TextureUtil.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\TemplateManager.cs" />
@@ -70,6 +71,7 @@
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\ReferenceTemplateDatas.cs" />
      <Compile Include="Assets\Code\Core\UI\UIType.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\StaticDataUtility.cs" />
+     <Compile Include="Assets\Code\Core\Extensions\ComponentExtension.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\ConfigManager.cs" />
      <Compile Include="Assets\Code\Core\Tasks\TaskStatus.cs" />
      <Compile Include="Assets\Code\Core\Tasks\TaskEmpty.cs" />
@@ -81,10 +83,12 @@
      <Compile Include="Assets\Code\StaticData\IStaticData\IStaticData.cs" />
      <Compile Include="Assets\Code\Core\GameConf\GameConf.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\Code\Core\Extensions\WaitForTween.cs" />
      <Compile Include="Assets\Code\Core\GameComponent\GameComponentRoot.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\XmlSerializerUtility.cs" />
      <Compile Include="Assets\Code\Core\Tasks\BlockSceneUITask.cs" />
      <Compile Include="Assets\Code\Core\GameComponent\RootComponent.cs" />
+     <Compile Include="Assets\Code\Core\Utils\Time.cs" />
      <Compile Include="Assets\Code\StaticData\Interfaces\ITickable.cs" />
      <Compile Include="Assets\Code\StaticData\IStaticData\Config.cs" />
      <Compile Include="Assets\Code\Test.cs" />
@@ -99,6 +103,7 @@
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\SummarySerializeInterface.cs" />
      <Compile Include="Assets\Code\Core\Tasks\TaskWhenAll.cs" />
      <Compile Include="Assets\Code\Core\Tasks\TaskRunner.cs" />
+     <Compile Include="Assets\Code\Core\Extensions\CoreExtension.cs" />
      <Compile Include="Assets\Code\Core\UI\SciptMono\ScriptMono.cs" />
      <Compile Include="Assets\Code\Core\Utils\ScreenUtility.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Facade.cs" />
@@ -111,18 +116,22 @@
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\BinaryFileTitle.cs" />
      <Compile Include="Assets\Code\Core\Utils\ResUtil.cs" />
      <Compile Include="Assets\Code\Core\Tasks\ITaskQueue.cs" />
+     <Compile Include="Assets\Code\UI\BaseUIMono.cs" />
+     <Compile Include="Assets\Code\Core\Extensions\GameObjectExtension.cs" />
+     <Compile Include="Assets\Code\Core\Event\EventDispatcher.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\Manager\WeakReferenceConfigDatas.cs" />
+     <Compile Include="Assets\Code\Core\Event\EventHub.cs" />
      <Compile Include="Assets\Code\Core\UI\UIMaskMode.cs" />
      <Compile Include="Assets\Code\Core\Utils\CryptoUtils.cs" />
      <Compile Include="Assets\Code\StaticData\StaticData\Generate\Summary\StaticDataSummary_ConfigTest.cs" />
      <Compile Include="Assets\Code\Core\UI\SciptMono\ScriptMono.Binding.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\Code\Core\Extensions\DotNetExtensions.cs" />
      <Compile Include="Assets\Code\Core\UI\UIPopMode.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
      <Compile Include="Assets\Code\Core\GameComponent\GameComponent.cs" />
      <Compile Include="Assets\Code\Core\Utils\ArrayUtil.cs" />
-     <Compile Include="Assets\Code\Core\Utils\BlurUtil.cs" />
      <Compile Include="Assets\Code\StaticData\Engine\StaticData\BinaryFileReader.cs" />
      <Compile Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
      <Compile Include="Assets\Code\StaticData\Generator\Facade.cs" />
@@ -133,6 +142,7 @@
      <Compile Include="Assets\Code\Core\Utils\TimeUtil.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Code\StaticData\StaticData" />
+     <None Include="Assets\Spine\version.txt" />
      <Folder Include="Assets\Code\Core\Tasks" />
      <Folder Include="Assets\Code\Core\Utils" />
      <Folder Include="Assets\Code\StaticData\Engine\StaticData\Client" />
@@ -143,14 +153,15 @@
      <Folder Include="Assets\Code\StaticData\Engine\StaticData\Manager" />
      <Folder Include="Assets\Resources\binary" />
      <Folder Include="Assets\Code\Core\Plugins\Demigiant\DOTween\Modules" />
-     <Folder Include="Assets\Code\Core\UIManager" />
      <None Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.xml" />
      <Folder Include="Assets\Code\StaticData\Engine" />
      <None Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.xml" />
      <Folder Include="Assets\Code\Core\UI" />
      <Folder Include="Assets\Code\Core\Plugins\Sirenix\Odin Inspector\Modules" />
+     <Folder Include="Assets\Code\Core\Extension" />
      <Folder Include="Assets\Code\Core\Plugins\Demigiant\DOTween" />
      <Folder Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\NoEmitAndNoEditor" />
+     <Folder Include="Assets\Code\Core\Extensions" />
      <Folder Include="Assets\Code\Core\Plugins\Sirenix\Odin Inspector\Config\Resources\Sirenix" />
      <None Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.xml" />
      <Folder Include="Assets\Code\StaticData\Generator" />
@@ -159,6 +170,7 @@
      <None Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.Utilities.xml" />
      <Folder Include="Assets\Resources" />
      <Folder Include="Assets\Code\Core\UI\SciptMono" />
+     <None Include="Assets\Spine\package.json" />
      <Folder Include="Assets\Code\Core\Plugins\Sirenix\Odin Inspector\Config" />
      <Folder Include="Assets\Code\StaticData\StaticData\Generate\Summary" />
      <Folder Include="Assets\Code\Core\Plugins" />
@@ -168,6 +180,7 @@
      <Folder Include="Assets\Code\Core" />
      <Folder Include="Assets\Code\UI" />
      <Folder Include="Assets\Code\Core\Plugins\Sirenix" />
+     <Folder Include="Assets\Code\Core\Event" />
      <Folder Include="Assets\Code\Core\Plugins\Sirenix\Demos" />
      <None Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\link.xml" />
      <Folder Include="Assets\Code\Core\Plugins\Sirenix\Odin Inspector" />
@@ -181,6 +194,7 @@
      <Folder Include="Assets\Code\StaticData\StaticData\Generate" />
      <Folder Include="Assets\Code\StaticData" />
      <Folder Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\NoEditor" />
+     <Folder Include="Assets\Spine" />
      <None Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.Serialization.xml" />
      <Reference Include="UnityEngine">
      <HintPath>E:\Program Files\Unity 2021.3.31f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -892,9 +906,21 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="spine-unity.csproj">
+      <Project>{710abcc1-8355-6c08-c31f-c3180a63b716}</Project>
+      <Name>spine-unity</Name>
+    </ProjectReference>
     <ProjectReference Include="Animancer.csproj">
       <Project>{bdd55732-c392-7026-79b5-25d6e46a8d24}</Project>
       <Name>Animancer</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-unity-editor.csproj">
+      <Project>{ac0d29cd-fed6-f3b0-a18a-e002e2b7cbc6}</Project>
+      <Name>spine-unity-editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="spine-csharp.csproj">
+      <Project>{2fb3113f-ab32-4756-0d5c-63671cee04fd}</Project>
+      <Name>spine-csharp</Name>
     </ProjectReference>
     <ProjectReference Include="Animancer.FSM.csproj">
       <Project>{480dd76b-3c0b-82e7-86f8-04abf68a3166}</Project>

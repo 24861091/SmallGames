@@ -5,8 +5,8 @@ namespace Code.Core.GameConf
 {
     public static class GameConf
     {
-        private static Dictionary<Type, object> _entries = new();
-        private static Dictionary<Type, object> _datas = new();
+        private static Dictionary<Type, object> _entries = new Dictionary<Type, object>();
+        private static Dictionary<Type, object> _datas = new Dictionary<Type, object>();
         
         public static T Get<T>(string id) where T : StaticData.Template
         {

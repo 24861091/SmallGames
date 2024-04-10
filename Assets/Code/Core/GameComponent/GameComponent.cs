@@ -17,7 +17,7 @@ namespace Code.Core.GameComponent
             return Root;
         }
 
-        protected Dictionary<Type, List<GameComponent>> SubComponents = new();
+        protected Dictionary<Type, List<GameComponent>> SubComponents = new Dictionary<Type, List<GameComponent>>();
 
         public void AddComponent(Type type, GameComponent comp)
         {

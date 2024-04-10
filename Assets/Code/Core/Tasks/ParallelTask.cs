@@ -6,7 +6,7 @@ namespace Code.Core.Tasks
 {
     public class ParallelTask : AbstractTask
     {
-        private LinkedList<AbstractTask> _innerTasks = new();
+        private LinkedList<AbstractTask> _innerTasks = new LinkedList<AbstractTask>();
         private Action _onFinish;
 
         public void Add(AbstractTask task)

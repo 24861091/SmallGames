@@ -8,7 +8,7 @@ namespace Code.Core.Tasks
 {
     public class TaskChain : ITaskQueue
     {
-        private LinkedList<AbstractTask> _running = new();
+        private LinkedList<AbstractTask> _running = new LinkedList<AbstractTask>();
 
         public void Update()
         {

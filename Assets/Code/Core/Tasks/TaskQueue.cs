@@ -8,7 +8,7 @@ namespace Code.Core.Tasks
 {
     public sealed class TaskQueue : ITaskQueue
     {
-        private LinkedList<AbstractTask>                  _runningTasks = new();
+        private LinkedList<AbstractTask> _runningTasks = new LinkedList<AbstractTask>();
 
 
         public bool Empty => _runningTasks.Count == 0;

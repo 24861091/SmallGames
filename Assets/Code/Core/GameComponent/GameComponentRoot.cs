@@ -8,7 +8,7 @@ namespace Code.Core.GameComponent
     public class GameComponentRoot : RootComponent
     {
         private static GameComponentRoot _instance;
-        public static  GameComponentRoot Instance => _instance ??= new();
+        public static GameComponentRoot Instance => _instance ??= new GameComponentRoot();
 
         public void Destroy()
         {

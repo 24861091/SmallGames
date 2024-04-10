@@ -1,6 +1,6 @@
 using System;
 
-namespace GameLib.Main.UI
+namespace Code.Core.UI
 {
     public class PanelConfigAttribute : Attribute
     {

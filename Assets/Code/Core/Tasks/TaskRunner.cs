@@ -6,9 +6,9 @@ namespace Code.Core.Tasks
     public class TaskRunner
     {
         private static TaskRunner _instance;
-        public static  TaskRunner Instance => _instance ??= new();
-        
-        private TaskQueue _taskQueue = new();
+        public static TaskRunner Instance => _instance ??= new TaskRunner();
+
+        private TaskQueue _taskQueue = new TaskQueue();
         public bool Empty => _taskQueue.Empty;
 
         public bool IsTagEmpty(string tag)
