@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using Code.Core.Utils;
-using Core.Extensions;
 using UnityEngine;
 
 namespace Code.Core.Event
@@ -33,7 +32,7 @@ namespace Code.Core.Event
         {
             if (_handlers.TryGetValue(type, out var list))
             {
-                list.RemoveAll(handler);
+                while (list.Remove(handler)) ;
             }
         }
 

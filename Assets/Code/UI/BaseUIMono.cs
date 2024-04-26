@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Core.UI
+namespace Code.UI
 {
     public abstract class BaseUIMono : MonoBehaviour
     {

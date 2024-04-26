@@ -1,6 +1,4 @@
-using Code.Core.Tasks;
-
-namespace GameLib.Main.Tasks
+namespace Code.Core.Tasks
 {
     public interface ITaskQueue
     {

@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-namespace Core.Extensions
+namespace Code.Core.Extensions
 {
     public class WaitForTween : CustomYieldInstruction
     {

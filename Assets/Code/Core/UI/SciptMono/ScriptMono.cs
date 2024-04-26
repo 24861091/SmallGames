@@ -1,7 +1,6 @@
-using System;
 using UnityEngine;
 
-namespace UI
+namespace Code.Core.UI.SciptMono
 {
     public partial class ScriptMono : MonoBehaviour
     {

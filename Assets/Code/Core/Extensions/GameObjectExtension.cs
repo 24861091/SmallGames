@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Object = UnityEngine.Object;
 
-namespace Core.Extensions
+namespace Code.Core.Extensions
 {
     public static class GameObjectExtension
     {

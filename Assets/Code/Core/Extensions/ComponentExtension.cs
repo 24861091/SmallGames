@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Code.Core.Extensions
+namespace Core.Extensions
 {
     public static class ComponentExtension
     {

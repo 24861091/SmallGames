@@ -1,33 +1,31 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Core.Serialization;
 using Sirenix.OdinInspector;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.Serialization;
 
-namespace UI
+namespace Code.Core.UI.SciptMono
 {
-    public partial class ScriptMono 
-{
-    // [FormerlySerializedAs("scriptMonoTypeFullName")]
-    // public string ilTypeFullName;
-
-    public CompBindingDict compBindings;
-
-    public T GetCompBindingValue<T>(string key) where T : UnityEngine.Object
+    public partial class ScriptMono
     {
-        if (compBindings.TryGetValue(key, out var comp))
+        // [FormerlySerializedAs("scriptMonoTypeFullName")]
+        // public string ilTypeFullName;
+
+        public CompBindingDict compBindings;
+
+        public T GetCompBindingValue<T>(string key) where T : UnityEngine.Object
         {
-            if (comp != null)
-                return (T)comp;
+            if (compBindings.TryGetValue(key, out var comp))
+            {
+                if (comp != null)
+                    return (T)comp;
+            }
+
+            return null;
         }
 
-        return null;
-    }
-
-    #region 基础类型引用绑定
+        #region 基础类型引用绑定
 
 #if USE_PRIMITIVE_BINDING
         public PrimitiveBindingDict primitiveBindings;
@@ -85,9 +83,9 @@ namespace UI
         }
 #endif
 
-    #endregion
+        #endregion
 
-    #region Editor代码
+        #region Editor代码
 
 #if UNITY_EDITOR || true
 
@@ -113,66 +111,66 @@ namespace UI
             }
         }
 #endif
-    [NonSerialized] [ShowInInspector] public bool IsChildClass;
+        [NonSerialized] [ShowInInspector] public bool IsChildClass;
 
-    [Button()]
-    public void GenerateFieldsByKey()
-    {
-        GenerateFields(true);
-    }
-
-    [Button()]
-    public void GenerateFieldsByFind()
-    {
-        GenerateFields(false);
-    }
-
-    public void GenerateFields(bool useKeys)
-    {
-        var type = this.GetType();
-        if (type == typeof(ScriptMono)) return;
-        if (!type.IsSubclassOf(typeof(ScriptMono))) return;
-        
-        var className = this.GetType().Name;
-        var @namespace = type.Namespace;
-        var folderPath = "Assets/Code/UI/Generated";
-        var tab = "    ";
-        var sbFieldDeclare = new StringBuilder();
-        var sbFieldGetCalls = new StringBuilder();
-
-        if (compBindings != null && compBindings.Count > 0)
+        [Button()]
+        public void GenerateFieldsByKey()
         {
-            foreach (var item in compBindings)
+            GenerateFields(true);
+        }
+
+        [Button()]
+        public void GenerateFieldsByFind()
+        {
+            GenerateFields(false);
+        }
+
+        public void GenerateFields(bool useKeys)
+        {
+            var type = this.GetType();
+            if (type == typeof(ScriptMono)) return;
+            if (!type.IsSubclassOf(typeof(ScriptMono))) return;
+
+            var className = this.GetType().Name;
+            var @namespace = type.Namespace;
+            var folderPath = "Assets/Code/UI/Generated";
+            var tab = "    ";
+            var sbFieldDeclare = new StringBuilder();
+            var sbFieldGetCalls = new StringBuilder();
+
+            if (compBindings != null && compBindings.Count > 0)
             {
-                sbFieldDeclare.AppendLine(
-                    $"{tab}{tab}public {(IsChildClass ? "override" : "virtual")} {item.Value.GetType().FullName} {item.Key} {{ get; set; }}");
-                if (useKeys)
+                foreach (var item in compBindings)
                 {
-                    sbFieldGetCalls.AppendLine(
-                        $"{tab}{tab}{tab}{item.Key} = GetCompBindingValue<{item.Value.GetType().FullName}>(\"{item.Key}\");");
-                }
-                else
-                {
-                    var method = "";
-                    if (item.Value.GetType() == typeof(GameObject))
+                    sbFieldDeclare.AppendLine(
+                        $"{tab}{tab}public {(IsChildClass ? "override" : "virtual")} {item.Value.GetType().FullName} {item.Key} {{ get; set; }}");
+                    if (useKeys)
                     {
-                        method = ".gameObject";
-                    }
-                    else if (item.Value.GetType() == typeof(Transform))
-                    {
-                        method = "";
+                        sbFieldGetCalls.AppendLine(
+                            $"{tab}{tab}{tab}{item.Key} = GetCompBindingValue<{item.Value.GetType().FullName}>(\"{item.Key}\");");
                     }
                     else
                     {
-                        method = $".GetComponent<{item.Value.GetType().FullName}>()";
+                        var method = "";
+                        if (item.Value.GetType() == typeof(GameObject))
+                        {
+                            method = ".gameObject";
+                        }
+                        else if (item.Value.GetType() == typeof(Transform))
+                        {
+                            method = "";
+                        }
+                        else
+                        {
+                            method = $".GetComponent<{item.Value.GetType().FullName}>()";
+                        }
+
+                        sbFieldGetCalls.AppendLine(
+                            $"{tab}{tab}{tab}{item.Key} = transform.Find(\"{GetObjectPath(item.Value)}\"){method};");
                     }
 
-                    sbFieldGetCalls.AppendLine(
-                        $"{tab}{tab}{tab}{item.Key} = transform.Find(\"{GetObjectPath(item.Value)}\"){method};");
                 }
-
             }
-        }
 #if USE_PRIMITIVE_BINDING
             if (primitiveBindings != null && primitiveBindings.Count > 0)
             {
@@ -184,7 +182,7 @@ namespace UI
             }
 #endif
 
-        var output = $@"
+            var output = $@"
 namespace {@namespace}
 {{
     public partial class {className}
@@ -197,49 +195,49 @@ namespace {@namespace}
     }}  
 }}
 ";
-        Debug.Log(folderPath);
-        if (!System.IO.Directory.Exists(folderPath))
-            System.IO.Directory.CreateDirectory(folderPath);
-        var filePath = System.IO.Path.Combine(folderPath, $"{className}.Fields.cs");
-        System.IO.File.WriteAllText(filePath, output);
-        Debug.Log($"Wrote C# file to {filePath}");
-        
-        AssetDatabase.Refresh();
-    }
+            Debug.Log(folderPath);
+            if (!System.IO.Directory.Exists(folderPath))
+                System.IO.Directory.CreateDirectory(folderPath);
+            var filePath = System.IO.Path.Combine(folderPath, $"{className}.Fields.cs");
+            System.IO.File.WriteAllText(filePath, output);
+            Debug.Log($"Wrote C# file to {filePath}");
 
-    string GetObjectPath(UnityEngine.Object o)
-    {
-        GameObject go = null;
-        if (o is UnityEngine.Component c)
-        {
-            go = c.gameObject;
-        }
-        else if (o is GameObject)
-        {
-            go = o as GameObject;
+            AssetDatabase.Refresh();
         }
 
-        if (!go) return "";
-
-        var strings = new List<string>();
-        strings.Add(go.name);
-        while (go.transform.parent)
+        string GetObjectPath(UnityEngine.Object o)
         {
-            go = go.transform.parent.gameObject;
+            GameObject go = null;
+            if (o is UnityEngine.Component c)
+            {
+                go = c.gameObject;
+            }
+            else if (o is GameObject)
+            {
+                go = o as GameObject;
+            }
 
-            if (go == gameObject)
-                break;
+            if (!go) return "";
 
+            var strings = new List<string>();
             strings.Add(go.name);
-        }
+            while (go.transform.parent)
+            {
+                go = go.transform.parent.gameObject;
 
-        strings.Reverse();
-        return string.Join("/", strings);
-    }
+                if (go == gameObject)
+                    break;
+
+                strings.Add(go.name);
+            }
+
+            strings.Reverse();
+            return string.Join("/", strings);
+        }
 
 #endif
 
-    #endregion
-}
+        #endregion
+    }
 
 }
