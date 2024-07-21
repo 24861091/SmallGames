@@ -485,6 +485,7 @@
     <Compile Include="Assets\Code\Framework\GameFramework\Sound\ISoundAgent.cs" />
     <Compile Include="Assets\Code\Framework\GameFramework\Utility\Utility.Text.cs" />
     <Compile Include="Assets\Code\Core\Utils\TimeUtil.cs" />
+    <Compile Include="Assets\Code\UI\UITest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Code\Core\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll" />
